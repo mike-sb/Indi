@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.2",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "PlayTime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AIModule"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
